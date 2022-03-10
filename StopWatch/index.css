@@ -1,0 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(224, 145, 70);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color: #ffffff;
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+span {
+    font-size: 40px;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    border-width: 0.1px;
+    background-color: #ffffff3b;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: rgb(224, 145, 70);
+}
